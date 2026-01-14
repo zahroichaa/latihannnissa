@@ -3,7 +3,7 @@ public class rumussegitiga {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("\nRumus Segitiga\n");
+        System.out.print("\nRumus Segitiga");
 
         System.out.print("\nMasukkan alas segitiga: ");
         double alas = scanner.nextDouble();
@@ -31,5 +31,7 @@ public class rumussegitiga {
         System.out.println("Sisi C:" + c);
         System.out.println("\nLuas Segitiga: " + luas);
         System.out.println("Keliling Segitiga: " + keliling);
+
+        scanner.close();
     }
 }
